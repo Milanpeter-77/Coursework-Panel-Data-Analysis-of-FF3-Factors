@@ -1,2 +1,3 @@
-# Coursework-Panel-Data
-A coursework assignment of Econometrics in Quantitative Finance
+# Sector-Specific Factor Loadings in Panel Data (FF3 on S&P 500 Sectors)
+
+This repository contains code and a report for estimating and testing sector-specific factor loadings in a panel of S&P 500 stocks using the Fama–French three-factor model. It builds excess returns, aligns them with daily FF3 factors and sector classifications, and compares pooled OLS, fixed effects, and random effects specifications with and without sector–factor interactions. The workflow tests whether common betas are too restrictive versus allowing sector-specific betas (Energy, Financial Services, Healthcare), including poolability checks and clustered-robust inference. Key outputs include sector-interacted OLS benchmarks and FE/RE estimates, with diagnostics and F-tests indicating meaningful cross-sectional heterogeneity in factor exposures.
